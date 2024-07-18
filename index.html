@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant's - Portfolio</title>
+    <link rel="stylesheet" href="styel.css">
+    <script src="https://kit.fontawesome.com/7f94e76c44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+              <nav>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">intenship's</a></li>
+                    <li><a href="#">Project's</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            </div>
+        </div>
+    </div>
+   <!-- --------------------about-------------------- -->
+<div id="about"></div>
+     <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/AAA.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About-Myself</h1>
+                <P>Hey, this is my homepage,<br>So I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with.
+                   Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different.
+                   Here it goes I am  a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write; I like to think,
+                   I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; always wanted to be a great writer, like Victor Hugo who wrote "Les Miserable", 
+                   or like Roman Roland who wrote "John Christopher". They have influenced millions of people through their books. I also wanted to be a great psychologist, like William James or Sigmund Freud, 
+                   who could read people's mind. Of course, I am nowhere close to these people, yet. I am just someone who does some teaching, some research, and some writing. But my dream is still alive.</P>
+              
+                   <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('technical skills')">Technical Skills</p>
+                    <p class="tab-links" onclick="opentab('soft skills')">Soft Skills</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Techno Main salt lake,Kolkata W.B.</span><br>B.Tech(Electronics and Communication)   | Grade:9.21 CGPA (Till 6th sem)    [Pursuing] </li>
+                        <li><span>Higher Secondary education</span><br>Passed out 12th from W.B.C.H.S.E. in 2020 with Grade 'A'</li>
+                        <li><span>Secondary education</span><br>Passed out 10th from W.B.B.S.E. in 2018 with Grade 'A'</li>        
+                     </ul>
+                   </div>
+                   <div class="tab-contents" id="technical skills">
+                    <ul>
+                        <li><span>Coding Languages</span><br>C | C++ | Python | HTML | CSS | React Js | Java | Java script </li>
+                        <li><span>Video Editing</span><br></li>Photoshop Cs | Photoshop Cc | Wonder filmora 13 </li>
+                        <li><span>Content Writer</span><br>85+ Article's on The Hindu and The Telegraph </li>        
+                     </ul>
+                   </div>
+                   <div class="tab-contents" id="soft skills">
+                    <ul>
+                        <li><span>Communication</span><br> Hindi | English | Bengali | Tamil | Telgu | Marwari </li>
+                        <li><span>Management</span><br> Team Work | Dedication | Aggressive towards work </li>
+                        <li><span>Competitive Programing</span><br>Solved 100+ Questions on Leetcode | 4 Star coder at Hacker Rank | 3 star coder at Codechef</li>        
+                     </ul>
+                   </div>
+            </div>
+        </div>
+     </div>
+     <!-- --------------------------------------internship's----------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Internship's</h1>
+            <div class="services-list">
+             <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Artificial Intelligence</h2>
+                <p>One month summer Internship on Artificial Intelligence (AI) and its 
+                    application From Academy of skills Development</p>
+                    <a href="https://drive.google.com/file/d/1Oj72Sk8zjqPlAWhF2OEYTgZUvy-kTLmH/view?usp=sharing">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-dropbox"></i>
+                <h2>Internet of Things (IOT)</h2>
+                <p>One month summer Internship on internet of Things(IOT) and its 
+                    application From Academy of skills Development</p>
+                    <a href="https://drive.google.com/file/d/1Oj72Sk8zjqPlAWhF2OEYTgZUvy-kTLmH/view?usp=sharing">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-satellite-dish"></i>
+                <h2>Overview of space science</h2>
+                <p>One month training programme on Overview of space science by IIRS-ISRO Dehradun</p>
+                    <a href="https://drive.google.com/file/d/1DBStUc9Qq6NrhzPhlAVw2AaDzohco2Ch/view?usp=sharing">Learn more</a>
+             </div>
+            </div>
+
+        </div>
+
+     </div>
+<!-- -----------------------Project--------------------- -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Project's</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/Portfolio.png">
+                <div class="layer">
+                    <h3>My Personal Portfolio</h3>
+                    <p>This Portfolio is only about me and my achievement, 
+                        what i have found so far in time.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/website.png">
+                <div class="layer">
+                    <h3>Website clone</h3>
+                    <p>This website give you same experience as real 
+                       one and also is work as real website.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/deep.png">
+                <div class="layer">
+                    <h3>Cancer cell detection using machine learning</h3>
+                    <p>This Project  is my final year project which are not done 
+                       yet we are working on it.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"><b> See more </b></a>
+    </div>
+</div>
+<!-- ---------------------------contact---------------------- -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> connect.nishanttt@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7439120284</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100045239913542"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/connect_nishant"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/_nishant_1324/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/nishant-singh-7a9666290"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/connect-nishant"><i class="fa-brands fa-github"></i></a>
+                    <a href="connect.nishanttt@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="Images/My resume.pdf"class="btn btn2"><b>Download Cv</b></a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"><b>Submit</b></button>
+                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><b> ©2024 by Nishant singh</b></p>
+    </div>
+</div>
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+<script>
+ var sidemenu = document.getElementById("sidemenu");
+ function openmenu(){
+    sidemenu.style.right = "0"
+ }
+ function closemenu(){
+    sidemenu.style.right = "-200px"
+ }
+
+
+</script>
+
+</body>
+</html>
